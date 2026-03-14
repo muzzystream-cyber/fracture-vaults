@@ -1,8 +1,50 @@
-﻿__pycache__/
-*.pyc
+# Python
+__pycache__/
+*.py[cod]
 *.pyo
-.env
-*.db
-.DS_Store
-venv/
+*.pyd
+.Python
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
 .venv/
+venv/
+env/
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+
+# Environment
+.env
+.env.*
+!.env.example
+
+# Frontend build
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+
+# Logs
+*.log
+logs/
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Git
+*.orig
+
+# Windows AppData (critical - prevents git add . picking up system files)
+AppData/
